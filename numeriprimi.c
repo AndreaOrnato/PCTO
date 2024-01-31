@@ -9,16 +9,15 @@ int main()
     int y;
     int z = 0;
     
-    while (n1>1)
+    while (x>1)
     {
-       y= n1%x;
-       x = x - 1;
-       
-       if (y==0)
-       {
-       z = 1;
-        break ;
-       } 
+        y= n1%x;
+        x = x - 1;
+        if (y==0) 
+        {
+            z = 1;
+            break;
+        }
     }
     
     if(z == 1)
